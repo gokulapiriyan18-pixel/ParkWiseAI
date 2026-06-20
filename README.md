@@ -153,7 +153,7 @@ vercel
 
 ## Author
 
-Gokula Piriyan M A
+Gokula Piriyan M A<br>
 CSE Student | Frontend and AI Enthusiast
 
 
