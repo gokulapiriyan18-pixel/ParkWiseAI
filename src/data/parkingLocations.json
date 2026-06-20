@@ -1,0 +1,167 @@
+[
+  {
+    "id": "p1",
+    "name": "Anna Nagar Metro Parking",
+    "availableSlots": 45,
+    "totalSlots": 80,
+    "vehicleSupport": ["two-wheeler", "hatchback", "sedan", "suv"],
+    "status": "free",
+    "latitude": 13.085,
+    "longitude": 80.2101,
+    "area": "Anna Nagar"
+  },
+  {
+    "id": "p2",
+    "name": "VR Mall Parking",
+    "availableSlots": 12,
+    "totalSlots": 200,
+    "vehicleSupport": ["two-wheeler", "hatchback", "sedan", "suv", "minivan"],
+    "status": "paid",
+    "latitude": 13.0827,
+    "longitude": 80.2707,
+    "area": "Anna Nagar"
+  },
+  {
+    "id": "p3",
+    "name": "Phoenix Mall Parking",
+    "availableSlots": 8,
+    "totalSlots": 350,
+    "vehicleSupport": ["two-wheeler", "hatchback", "sedan", "suv", "minivan"],
+    "status": "paid",
+    "latitude": 13.0144,
+    "longitude": 80.2036,
+    "area": "Velachery"
+  },
+  {
+    "id": "p4",
+    "name": "T Nagar Public Parking",
+    "availableSlots": 22,
+    "totalSlots": 60,
+    "vehicleSupport": ["two-wheeler", "hatchback", "sedan"],
+    "status": "free",
+    "latitude": 13.0418,
+    "longitude": 80.2341,
+    "area": "T Nagar"
+  },
+  {
+    "id": "p5",
+    "name": "Marina Beach Parking",
+    "availableSlots": 35,
+    "totalSlots": 120,
+    "vehicleSupport": ["two-wheeler", "hatchback", "sedan", "suv"],
+    "status": "free",
+    "latitude": 13.05,
+    "longitude": 80.2824,
+    "area": "Marina Beach"
+  },
+  {
+    "id": "p6",
+    "name": "Guindy Metro Parking",
+    "availableSlots": 28,
+    "totalSlots": 70,
+    "vehicleSupport": ["two-wheeler", "hatchback", "sedan", "suv"],
+    "status": "free",
+    "latitude": 13.0105,
+    "longitude": 80.2128,
+    "area": "Guindy"
+  },
+  {
+    "id": "p7",
+    "name": "Vadapalani Metro Parking",
+    "availableSlots": 32,
+    "totalSlots": 65,
+    "vehicleSupport": ["two-wheeler", "hatchback", "sedan", "suv"],
+    "status": "free",
+    "latitude": 13.0478,
+    "longitude": 80.212,
+    "area": "Vadapalani"
+  },
+  {
+    "id": "p8",
+    "name": "Tambaram Railway Parking",
+    "availableSlots": 40,
+    "totalSlots": 90,
+    "vehicleSupport": ["two-wheeler", "hatchback", "sedan", "suv"],
+    "status": "free",
+    "latitude": 12.9249,
+    "longitude": 80.127,
+    "area": "Tambaram"
+  },
+  {
+    "id": "p9",
+    "name": "Porur Public Parking",
+    "availableSlots": 18,
+    "totalSlots": 50,
+    "vehicleSupport": ["two-wheeler", "hatchback", "sedan"],
+    "status": "free",
+    "latitude": 13.0358,
+    "longitude": 80.1569,
+    "area": "Porur"
+  },
+  {
+    "id": "p10",
+    "name": "Koyambedu Metro Parking",
+    "availableSlots": 55,
+    "totalSlots": 120,
+    "vehicleSupport": ["two-wheeler", "hatchback", "sedan", "suv", "minivan"],
+    "status": "paid",
+    "latitude": 13.0694,
+    "longitude": 80.1948,
+    "area": "Koyambedu"
+  },
+  {
+    "id": "p11",
+    "name": "Chennai Central Railway Parking",
+    "availableSlots": 15,
+    "totalSlots": 100,
+    "vehicleSupport": ["two-wheeler", "hatchback", "sedan", "suv", "minivan"],
+    "status": "paid",
+    "latitude": 13.0827,
+    "longitude": 80.275,
+    "area": "Chennai Central"
+  },
+  {
+    "id": "p12",
+    "name": "Egmore Railway Parking",
+    "availableSlots": 20,
+    "totalSlots": 75,
+    "vehicleSupport": ["two-wheeler", "hatchback", "sedan", "suv"],
+    "status": "paid",
+    "latitude": 13.0732,
+    "longitude": 80.2609,
+    "area": "Egmore"
+  },
+  {
+    "id": "p13",
+    "name": "Velachery MRTS Parking",
+    "availableSlots": 24,
+    "totalSlots": 55,
+    "vehicleSupport": ["two-wheeler", "hatchback", "sedan", "suv"],
+    "status": "free",
+    "latitude": 12.9815,
+    "longitude": 80.218,
+    "area": "Velachery"
+  },
+  {
+    "id": "p14",
+    "name": "Express Avenue Parking",
+    "availableSlots": 5,
+    "totalSlots": 180,
+    "vehicleSupport": ["two-wheeler", "hatchback", "sedan", "suv", "minivan"],
+    "status": "paid",
+    "latitude": 13.0588,
+    "longitude": 80.2647,
+    "area": "Royapettah"
+  },
+  {
+    "id": "p15",
+    "name": "Chennai Airport Parking",
+    "availableSlots": 80,
+    "totalSlots": 300,
+    "vehicleSupport": ["two-wheeler", "hatchback", "sedan", "suv", "minivan", "commercial"],
+    "status": "paid",
+    "latitude": 12.9941,
+    "longitude": 80.1709,
+    "area": "Chennai Airport"
+  }
+]

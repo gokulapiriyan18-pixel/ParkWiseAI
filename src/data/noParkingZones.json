@@ -1,0 +1,35 @@
+[
+  {
+    "id": "np1",
+    "name": "Mount Road No-Parking Zone",
+    "description": "Strict no-parking enforced 24/7 near government buildings",
+    "coordinates": [
+      [13.0680, 80.2600],
+      [13.0695, 80.2650],
+      [13.0670, 80.2665],
+      [13.0655, 80.2615]
+    ]
+  },
+  {
+    "id": "np2",
+    "name": "Kamarajar Salai Restricted Zone",
+    "description": "No parking along Marina promenade during peak hours",
+    "coordinates": [
+      [13.0520, 80.2780],
+      [13.0540, 80.2850],
+      [13.0510, 80.2860],
+      [13.0495, 80.2790]
+    ]
+  },
+  {
+    "id": "np3",
+    "name": "T Nagar Bus Stand Zone",
+    "description": "Emergency vehicle access — parking prohibited",
+    "coordinates": [
+      [13.0430, 80.2310],
+      [13.0445, 80.2335],
+      [13.0420, 80.2350],
+      [13.0405, 80.2325]
+    ]
+  }
+]
