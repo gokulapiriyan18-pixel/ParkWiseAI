@@ -13,8 +13,6 @@ export default function AIRecommendation({ topPick, explanation, reasons = [] })
     )
   }
 
-  const confidence = topPick.aiScore
-
   return (
     <Card highlight className="animate-slide-up relative overflow-hidden">
       <div className="pointer-events-none absolute -right-8 -top-8 h-32 w-32 rounded-full bg-[#22C55E]/10 blur-2xl" />
@@ -27,9 +25,6 @@ export default function AIRecommendation({ topPick, explanation, reasons = [] })
         <div className="flex flex-wrap gap-2">
           <span className="rounded-full bg-[#22C55E]/20 px-3 py-1 text-sm font-bold text-[#4ADE80]">
             AI Score: {topPick.aiScore}/100
-          </span>
-          <span className="rounded-full bg-[#FACC15]/20 px-3 py-1 text-sm font-bold text-[#FACC15]">
-            Confidence: {confidence}%
           </span>
         </div>
       </div>
