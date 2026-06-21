@@ -25,15 +25,15 @@ export default function ParkeyRecommendationPanel() {
   const { topPick, explanation, reasons } = aiResult
 
   return (
-    <div className="fixed inset-0 z-[9999] flex items-center justify-center p-4">
+    <div className="fixed inset-0 z-[9999] flex items-start justify-center p-4 pt-6 sm:items-center">
       <div
         className="absolute inset-0 bg-[#07130D]/85 backdrop-blur-sm transition-opacity"
         onClick={closeParkeyPanel}
         aria-hidden="true"
       />
-      <Card className="relative z-10 w-[min(90vw,55rem)] max-w-[90vw] sm:max-w-3xl animate-slide-up overflow-hidden rounded-[2rem] border border-[#22C55E]/20 bg-[#0B1F16]/95 shadow-[0_40px_80px_rgba(0,0,0,0.45)] max-h-[90vh]">
-        <div className="flex h-full min-h-0 flex-col gap-6 p-4 sm:p-8">
-          <div className="flex flex-wrap items-start justify-between gap-4">
+      <Card className="relative z-10 w-full max-w-3xl animate-slide-up overflow-hidden rounded-[2rem] border border-[#22C55E]/20 bg-[#0B1F16]/95 shadow-[0_40px_80px_rgba(0,0,0,0.45)] max-h-[90vh] sm:max-h-[85vh]">
+        <div className="flex h-full min-h-0 flex-col gap-6 p-6 sm:p-8">
+          <div className="flex flex-col gap-4 sm:flex-row sm:items-start sm:justify-between">
             <div className="flex items-center gap-4">
               <div className="relative flex h-14 w-14 items-center justify-center rounded-3xl bg-gradient-to-br from-[#22C55E] to-[#15803D] shadow-[0_0_35px_rgba(34,197,94,0.25)]">
                 <Bot className="h-7 w-7 text-[#F8FAFC]" />
@@ -54,7 +54,7 @@ export default function ParkeyRecommendationPanel() {
             </button>
           </div>
 
-          <div className="min-h-0 overflow-y-auto">
+          <div className="min-h-0 flex-1 overflow-y-auto pr-1">
             <AIRecommendation topPick={topPick} explanation={explanation} reasons={reasons} />
           </div>
         </div>

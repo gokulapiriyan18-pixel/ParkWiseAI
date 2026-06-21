@@ -18,8 +18,8 @@ export default function Hero() {
         <div className="absolute -right-32 top-20 h-96 w-96 rounded-full bg-[#4ADE80]/10 blur-3xl" />
         <div className="absolute bottom-0 left-1/2 h-64 w-[600px] -translate-x-1/2 rounded-full bg-[#15803D]/15 blur-3xl" />
         <div
-          className="absolute left-1/2 top-1/3 h-[400px] w-[400px] -translate-x-1/2 -translate-y-1/2 rounded-full bg-[radial-gradient(circle,rgba(16,185,129,0.12)_0%,transparent_70%)]"
-        />
+  className="absolute left-1/2 top-1/3 h-[260px] w-[260px] -translate-x-1/2 -translate-y-1/2 rounded-full blur-2xl bg-[radial-gradient(circle,rgba(16,185,129,0.04)_0%,transparent_75%)]"
+/>
         {/* Decorative large parking symbol (purely visual). */}
         <div
           aria-hidden="true"
